@@ -1,0 +1,182 @@
+html,
+body {
+	height: 100%;
+  font: 16px "Josefin Sans", serif;
+}
+.container {
+    display: flex;
+  	flex-direction: column;
+  	min-height: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+flex: 0 0 auto;
+background-color: yellow;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+
+}
+.logo {
+  margin-left: 33px;
+}
+.logo img {
+  max-height: 64px;
+}
+nav ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+nav li {
+float: left;
+}
+nav a {
+ display: block;
+ color: #111;
+ text-align: center;
+ padding: 16px;
+ text-decoration: none;
+ font-size: 28px;
+ font-weight: 400;
+}
+main {
+flex: 1 0 auto;
+background-color: red;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+align-items: stretch;
+justify-content: center;
+
+}
+
+footer {
+flex: 0 0 auto;
+background-color: green;
+}
+
+.aside_left {
+  background-color: #C798B9;
+  flex-basis: 210px;
+  flex-shrink: 0;
+}
+.center {
+  background-color: #deeeef;
+  padding: 15px 10px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cards {
+  display: block;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.card {
+  width: 210px;
+  height: 295px;
+  background-color: #c5d9db;
+  border-radius: 16px 16px 16px 16px;
+  padding: 16px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+.card__icon {
+  padding: 0;
+    border: 8px solid #4dcfdd;
+    overflow: hidden;
+  width: 84px;
+    border-radius: 50px;
+    flex-basis: 84px;
+    flex-shrink: 0;
+}
+.card__icon img {
+  height: 84px;
+}
+.card h2 {
+  margin: 12px 0 8px 0;
+}
+.card p {
+  flex-grow: 1;
+  margin: 4px 0 8px 0;
+}
+.gobutton {
+  color: #111;
+  text-align: center;
+  padding: 12px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #4dcfdd;
+  border-radius: 16px 16px 16px 16px;
+  min-width: 44px;
+}
+.three {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  border: solid 3px #121212;
+  border-radius: 33px 33px 0 0;
+  overflow: hidden;
+}
+.three div{
+  text-align: center;
+  flex-basis: 180px;
+  min-height: 33px;
+  margin: 0;
+
+}
+.aside_right {
+  background-color: #9CB1C7;
+  flex-basis: 210px;
+  flex-shrink: 0;
+}
+#N1 {
+  flex-basis: 50%;
+  background-color: #FD644D;
+}
+#N2 {
+  flex-basis: 33%;
+  background-color: #4983B2;
+  order: 4;
+  flex-grow: 1;
+}
+#N3 {
+  flex-basis: 33%;
+  background-color: #663797;
+  order: 3;
+  flex-grow: 1;
+}
+#N4 {
+  flex-basis: 33%;
+  background-color: #0E7F12;
+  order: 5;
+  flex-grow: 1;
+}
+#N5 {
+  flex-basis: 50%;
+  background-color: #FDA429;
+  order: 2;
+}
+
+
+
+
+
+
+
+/* Scroll fun*/
